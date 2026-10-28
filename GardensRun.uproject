@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.7",
+	"EngineAssociation": "{76D57800-4963-E77C-5D2A-F3A80D52A8EF}",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -17,7 +17,7 @@
 		},
 		{
 			"Name": "Aura",
-			"Enabled": false,
+			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"Mac"
