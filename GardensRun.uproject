@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{76D57800-4963-E77C-5D2A-F3A80D52A8EF}",
+	"EngineAssociation": "5.8",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -14,14 +14,6 @@
 		{
 			"Name": "GameplayStateTree",
 			"Enabled": true
-		},
-		{
-			"Name": "Aura",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac"
-			]
 		}
 	]
 }
