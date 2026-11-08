@@ -1,0 +1,20 @@
+{
+  "language": "auto",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "providers": {},
+  "approval_mode": "confirm",
+  "always_allow_tools": [],
+  "max_steps": 40,
+  "temperature": 0.2,
+  "max_context_tokens": 80000,
+  "auto_context": true,
+  "tool_groups": true,
+  "fallback_provider": "",
+  "fallback_model": "",
+  "history_dir": "",
+  "embedding_provider": "",
+  "embedding_model": "",
+  "gen3d_provider": "meshy",
+  "service_keys": {}
+}

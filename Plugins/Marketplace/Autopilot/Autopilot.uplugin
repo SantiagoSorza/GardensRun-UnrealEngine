@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Autopilot",
+	"Description": "An AI agent that tests your game: verifies claims about your game, plays goals and explores it to find bugs. Connects out over a WebSocket to the agent service running on this machine (or one you host).",
+	"Category": "Testing",
+	"CreatedBy": "Autopilot",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AutopilotPlaytest",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit",
+			"TargetConfigurationDenyList": [
+				"Shipping"
+			]
+		},
+		{
+			"Name": "AutopilotPlaytestEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "AutopilotCodex",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}
