@@ -22,10 +22,6 @@
 				"Win64",
 				"Mac"
 			]
-		},
-		{
-			"Name": "Autopilot",
-			"Enabled": false
 		}
 	]
 }
