@@ -1,0 +1,107 @@
+{
+	"FileVersion": 3,
+	"Version": 18,
+	"VersionName": "1.1.14",
+	"FriendlyName": "Nwiro Pro",
+	"Description": "AI integration tool for Unreal Engine 5",
+	"Category": "AI",
+	"CreatedBy": "Nwiro",
+	"CreatedByURL": "https://nwiro.ai",
+	"DocsURL": "https://drive.google.com/drive/folders/1hEZKTGbgEIrYXw0Cf1ZkHWZNLDAZz79s?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/22e3bc90-ed91-4154-8bea-21c33e6a51b7",
+	"SupportURL": "https://leartes.atlassian.net/servicedesk/customer/portal/1",
+	"EngineVersion": "5.8.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "NwiroRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "Nwiro",
+			"Type": "EditorNoCommandlet",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "WebBrowserWidget",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "StateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "IKRig",
+			"Enabled": true
+		},
+		{
+			"Name": "PoseSearch",
+			"Enabled": true
+		},
+		{
+			"Name": "PCG",
+			"Enabled": true
+		},
+		{
+			"Name": "HDRIBackdrop",
+			"Enabled": true
+		},
+		{
+			"Name": "LandscapePatch",
+			"Enabled": true
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "AppleProResMedia",
+			"Enabled": true,
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			],
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "EditorToolset",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
